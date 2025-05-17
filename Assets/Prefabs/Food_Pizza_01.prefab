@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 912977057712161380}
   - component: {fileID: 8405353684924082461}
   - component: {fileID: -6613057498982224544}
+  - component: {fileID: 4944828559777678202}
+  - component: {fileID: 84394455505032013}
+  - component: {fileID: 8462653275718516326}
   m_Layer: 0
   m_Name: Food_Pizza_01
   m_TagString: Untagged
@@ -28,9 +31,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3847283341380781818}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.81, y: -0.0000009536743, z: 1.35}
-  m_LocalScale: {x: 1.7643, y: 3, z: 1.623082}
+  m_LocalScale: {x: 1.7643001, y: 3, z: 1.6230816}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -100,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fc0f3c8047588e4bb46aab382d21169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  speed: 8
 --- !u!114 &-6613057498982224544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,5 +114,65 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 328482669e41ddd4fa276cd539bf6fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &4944828559777678202
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3847283341380781818}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.25, z: 0.87}
+  m_Center: {x: 0, y: 0, z: -0.0000001937151}
+--- !u!54 &84394455505032013
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3847283341380781818}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8462653275718516326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3847283341380781818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464104ebe220b07488737a387ef2e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

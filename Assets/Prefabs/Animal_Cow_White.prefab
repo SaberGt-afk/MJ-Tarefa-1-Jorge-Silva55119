@@ -564,6 +564,8 @@ GameObject:
   - component: {fileID: 9081211346005597875}
   - component: {fileID: 3033163480703532553}
   - component: {fileID: -8555650240411923222}
+  - component: {fileID: 739046626000909440}
+  - component: {fileID: 5666898511344395834}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -581,7 +583,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -20, y: 0, z: 21.8}
-  m_LocalScale: {x: 0.105858, y: 0.18, z: 0.0973849}
+  m_LocalScale: {x: 0.105858006, y: 0.18, z: 0.0973849}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5294249872174820901}
@@ -632,6 +634,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 328482669e41ddd4fa276cd539bf6fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &739046626000909440
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135695612493412816}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 31.77, y: 43.88, z: 62.4}
+  m_Center: {x: 0, y: 17.7, z: 0}
+--- !u!114 &5666898511344395834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135695612493412816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464104ebe220b07488737a387ef2e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2254149359767361110

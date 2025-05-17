@@ -716,6 +716,8 @@ GameObject:
   - component: {fileID: 4217825800093754876}
   - component: {fileID: 6204413173700751133}
   - component: {fileID: 6640187732995557043}
+  - component: {fileID: 7483847746321654371}
+  - component: {fileID: -7903721573664688379}
   m_Layer: 0
   m_Name: Animal_Doe_02
   m_TagString: Untagged
@@ -733,7 +735,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 2.1, y: 0, z: 16.5}
-  m_LocalScale: {x: 11.762, y: 20, z: 10.82054}
+  m_LocalScale: {x: 11.762, y: 20, z: 10.820544}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2014603479626488916}
@@ -793,6 +795,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 328482669e41ddd4fa276cd539bf6fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &7483847746321654371
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5978944262038939947}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.54, y: 0.85, z: 0.91}
+  m_Center: {x: 0, y: 0.24, z: 0}
+--- !u!114 &-7903721573664688379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5978944262038939947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464104ebe220b07488737a387ef2e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6235972136100785800
