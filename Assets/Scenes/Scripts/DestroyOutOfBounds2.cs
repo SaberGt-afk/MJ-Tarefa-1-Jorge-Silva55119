@@ -4,7 +4,7 @@ public class DestroyOutOfBounds2 : MonoBehaviour
 {
 
     private float topBound = 11.7f;
-    private float lowerBound = -13.84f;
+    private float lowerBound = -14.8229f;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
