@@ -44,7 +44,7 @@ public class PlayerControllerX3 : MonoBehaviour
         if (transform.position.y > ceiling)
         {
             transform.position = new Vector3(transform.position.x, ceiling, transform.position.z);
-            playerRb.velocity = Vector3.zero;
+            playerRb.linearVelocity = Vector3.zero;
         }
     }
 
