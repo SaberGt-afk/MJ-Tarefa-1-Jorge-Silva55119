@@ -12,6 +12,7 @@ TagManager:
   - Money
   - Powerup
   - Enemy
+  - Enemies
   layers:
   - Default
   - TransparentFX
